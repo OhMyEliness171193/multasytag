@@ -40,7 +40,7 @@ def procesar_fila_excel(index,row) -> dict:
     #obj_linea={"ID":index+1}
     #obj_linea={}
     obj_linea={"autopista":"PUCHUNCAVI"}
-    print("Hola mundo")
+    print("Hola mundo 2")
 
     for key,value in row.items():
         if pd.notna(value):
